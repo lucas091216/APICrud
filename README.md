@@ -5,20 +5,10 @@ Mysql foi usado como banco de dados.
 Trabalhando com Requisições HTTP esse projeto tem os seguintes protocolos: 
 
 PUT : Atualizar Medico
-
-//exclusao logica, ou seja, só faz com que ele esteja inativo e não apaga de verdade.
 DEL : Deletar Medico     
-
- //Ativa um Medico inativo pelo id.
 DEL : ATivar Medico     
-
- //Lista SOMENTE os medicos ativos.
 GET : List Medico ativo    
-
-//Lista TODOS os medicos, ou seja até os desativados
 GET : List todo os Medicos  
-
-//Cadastra um medico novo no sistema.
 POST: Cadastra um medico    
 
 Funcionalidades feitas tambem com a classe Pacientes. 
